@@ -4,10 +4,12 @@
 #include <iostream>
 #include <string>
 
-class Batiment
+class Batiments
 {
 public:
-    void recevoirDegats();
+    Batiments(int vie);
+    virtual ~Batiments();
+    void recevoirDegats(int degats);
 protected :
     int m_vie;
     std::string m_nom;
