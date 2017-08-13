@@ -31,6 +31,12 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Attaquant.cpp" />
+		<Unit filename="Attaquant.h" />
+		<Unit filename="Batiments.cpp" />
+		<Unit filename="Batiments.h" />
+		<Unit filename="Chateau.h" />
+		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
