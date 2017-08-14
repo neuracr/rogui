@@ -3,7 +3,7 @@
 
 #include "Batiments.h"
 
-class Production : public Batiments
+class Production : public Batiment
 {
 public:
     void gainPieceOr(int production);
